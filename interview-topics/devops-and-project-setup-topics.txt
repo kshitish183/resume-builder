@@ -1,0 +1,37 @@
+DevOps and Project Setup Interview Topics for ApplyAI
+
+1. Project Structure and Monorepo Setup
+- Root package.json coordinating client and server scripts
+- Separate package.json files for frontend and backend
+- Using concurrently to run both dev servers together
+
+2. Development Workflow
+- Installing dependencies in both client and server
+- Running `npm run dev` to start the full stack
+- Using `npm run seed` to populate demo data after MongoDB startup
+
+3. Local Database Setup
+- Docker Compose service for MongoDB
+- Running `docker compose up -d mongodb`
+- Alternative local MongoDB installation and service management
+
+4. Environment Configuration
+- Using `.env` files for sensitive settings
+- Common environment variables: PORT, MONGODB_URI, OPENAI_API_KEY, CLIENT_URL
+- Handling missing keys and fallback modes
+
+5. Build and Deployment Basics
+- Building React app with Vite for production
+- Backend startup with `node src/app.js`
+- Deploying to platforms that support Node.js and MongoDB
+
+6. Troubleshooting Common Errors
+- 502/503 from backend when API or DB is unavailable
+- CORS issues between frontend and backend
+- JWT auth failures and token expiration
+- OpenAI API errors and rate-limit messages
+
+7. Interview-ready Concepts
+- Explain how Docker Compose simplifies local database setup
+- Describe how frontend and backend ports are coordinated during development
+- Discuss the importance of environment-specific configuration for secure deployments

@@ -1,0 +1,35 @@
+AI and Integration Interview Topics for ApplyAI
+
+1. OpenAI API Basics
+- Difference between completion, chat, and embeddings APIs
+- Choosing the right model for analysis (GPT-4o-mini in this project)
+- API keys, usage limits, and environment variable storage
+
+2. Prompt Design and AI Logic
+- Structuring prompts for resume scoring and rewriting bullet points
+- Defining expected response format and parsing results
+- Handling AI output consistency and edge cases
+
+3. Service Encapsulation
+- Keeping OpenAI calls in a dedicated ai.service.js
+- Separating prompt building from request execution
+- Reusing AI methods across controllers
+
+4. Rate Limiting and Cost Control
+- Why AI endpoints are rate limited per user
+- Implementing express-rate-limit for POST /api/ai routes
+- Graceful fallback when OpenAI key is missing
+
+5. Frontend Integration
+- Calling AI endpoints from the client with Axios
+- Showing progress indicators while AI analysis runs
+- Storing AI response data with application documents
+
+6. Error Handling for External APIs
+- Catching OpenAI errors and returning meaningful HTTP responses
+- Protecting the application from API downtime or bad responses
+
+7. Interview-ready Concepts
+- Explain how prompt engineering influences AI output quality
+- Describe the difference between backend AI service logic and frontend use of that logic
+- Discuss how rate limiting can reduce API cost and protect performance

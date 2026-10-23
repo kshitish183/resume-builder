@@ -1,0 +1,58 @@
+Backend Interview Topics for ApplyAI
+
+1. Node.js and Express Basics
+- Express application setup and middleware order
+- Routing patterns and route modularization
+- Request lifecycle: parsing, routing, controllers, error handling
+- Using express.json, cors, and morgan
+
+2. REST API Design
+- CRUD API design patterns for applications and resumes
+- Endpoint responsibility and HTTP methods
+- Status codes: 200, 201, 400, 401, 403, 404, 500
+- Request validation with express-validator
+
+3. Authentication and Authorization
+- JWT authentication flow: login, token generation, token verification
+- Protecting routes with middleware
+- Password hashing with bcryptjs
+- Secure storage of JWT secrets in environment variables
+
+4. Database Integration with Mongoose
+- Mongoose connection setup and options
+- Schema definitions for User, Resume, Application
+- Model relationships, references, and embedded subdocuments
+- Validation, indexes, and unique constraints
+
+5. Error Handling and Middleware
+- Centralized error handler in Express
+- Custom error responses for validation and database errors
+- 404 handling and route fallback
+- Middleware for database availability and rate limiting
+
+6. AI Integration and OpenAI SDK
+- Using openai package to call GPT models
+- Structuring request payloads and parsing responses
+- Handling API cost and rate limiting logic
+- Mock behavior when OpenAI API key is not present
+
+7. Security and Rate Limiting
+- Implementing express-rate-limit for expensive AI endpoints
+- Preventing brute-force registration and login abuse
+- Handling CORS securely for frontend access
+
+8. Service and Controller Layer Design
+- Separation of concerns: controllers, services, routes
+- Service layer for business logic vs controller for request handling
+- Reusability of AI logic and response composition
+
+9. Configuration and Environment
+- Using dotenv for environment variable management
+- Default values for local development
+- Database connection retry logic and health checks
+
+10. Interview-ready Concepts
+- Explain how JWTs are issued and validated in the backend
+- Describe how Mongoose handles schema validation and unique keys
+- Discuss how AI request rate limiting protects costs
+- Explain how middleware ensures the backend only serves requests when MongoDB is available

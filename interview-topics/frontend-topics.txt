@@ -1,0 +1,59 @@
+Frontend Interview Topics for ApplyAI
+
+1. React Fundamentals
+- React 19 features and improvements
+- JSX syntax, rendering, props, and state
+- Function components vs class components
+- React hooks: useState, useEffect, useMemo, useCallback
+- Component composition and reusable UI components
+
+2. State Management with Redux Toolkit
+- Redux Toolkit purpose and advantages over plain Redux
+- configureStore, createSlice, createAsyncThunk
+- Slice structure: actions, reducers, selectors
+- Managing async state for API requests
+- Using react-redux hooks: useDispatch and useSelector
+
+3. Routing with React Router Dom
+- Router components and route configuration
+- Nested routes and route params
+- Protected routes with authentication checks
+- Programmatic navigation and linking
+
+4. Data Fetching and API Integration
+- Axios configuration and interceptors
+- JWT token handling in requests
+- Error handling and loading states in UI
+- Interaction between frontend and backend endpoints
+
+5. UI and Layout
+- Tailwind CSS v4 basics and utility-first styling
+- Responsive layout design for dashboards and forms
+- Building reusable UI elements: buttons, cards, modals, badges
+- Component design for Kanban board, match score panel, resume editor
+
+6. Form Handling and Validation
+- Controlled inputs and form state management
+- Validating user input before sending requests
+- Persisting application and resume forms
+
+7. Project Architecture and Code Organization
+- Splitting features into pages, components, hooks, and store
+- Directory structure for maintainability
+- Understanding feature-based grouping vs generic components
+
+8. UX Considerations
+- Drag-and-drop Kanban interactions
+- User feedback for API calls and status changes
+- Loading states, empty states, and error messages
+
+9. Build Tooling
+- Vite lifecycle and configuration
+- Development vs production builds
+- Linting with ESLint and plugin configuration
+
+10. Interview-ready Concepts
+- Explain how the React app communicates with the Express API
+- Describe the structure of a Redux slice and state flow
+- Discuss how protected routes work with JWT authentication
+- Explain how UI components can stay reusable and composable

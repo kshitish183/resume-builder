@@ -1,0 +1,46 @@
+Database Interview Topics for ApplyAI
+
+1. MongoDB Fundamentals
+- Document-oriented database concepts
+- Collections, documents, and BSON
+- Differences between relational and document databases
+
+2. Mongoose ODM Concepts
+- Schemas, models, and instances
+- Schema types, default values, and required fields
+- Virtuals, methods, and statics (if used)
+
+3. Data Modeling for this Project
+- User model with authentication fields and resume reference
+- Resume model structure for skills, experience, education, and AI analysis
+- Application model structure with status history and AI score
+- Embedded history arrays for audit trail
+
+4. Schema Validation and Constraints
+- Required fields and data types
+- Unique fields and duplicate key error handling
+- Mongoose validation error formats
+
+5. Querying and Updates
+- Finding documents by user and ID
+- Updating nested arrays and history tracking
+- Pagination and filters in list endpoints (if applicable)
+
+6. Connection Management
+- Connection URI formats for local and Atlas MongoDB
+- Connection options: serverSelectionTimeoutMS, socketTimeoutMS
+- Retry logic and health check status
+
+7. Indexing and Performance
+- Why indexes matter for query performance
+- Use cases for unique index on email or application identifiers
+
+8. Deployment Considerations
+- Local MongoDB vs Docker vs Atlas
+- Managing environment-specific MongoDB URIs
+- Ensuring database availability for API startup
+
+9. Interview-ready Concepts
+- Explain how MongoDB stores nested arrays and subdocuments
+- Describe Mongoose connection states and how to check if DB is ready
+- Discuss the tradeoffs of embedding history vs referencing separate documents
